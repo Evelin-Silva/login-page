@@ -33,6 +33,7 @@ section{
 
 h2{
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
     color: #5B2C6F;
     letter-spacing: 10px;
 }
@@ -44,9 +45,13 @@ h2 span{
 .login{
     display: flex;
     flex-direction: column;
-    width: 250px;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 400px;
     padding: 20px;
     gap: 20px;
+    /* Background Glassmorphism */
     background: rgba( 255, 255, 255, 0.05 );
     box-shadow: 0 8px 32px 0 rgba(127, 140, 141, 4%);
     backdrop-filter: blur( 4px );
@@ -58,12 +63,12 @@ h2 span{
 h3{
     color: white;
     font-family: 'Rubik', sans-serif;
+    text-align: left;
 }
 
 form{
     display: flex;
     flex-direction: column;
-    width: 400px;
 }
 
 input{
@@ -76,8 +81,8 @@ input{
 }
 
 button{
-    height: 20px;
-    width: 65px;
+    height: 25px;
+    width: 75px;
     cursor: pointer;
     background: var(--primary-color);
     border: none;
